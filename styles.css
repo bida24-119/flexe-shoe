@@ -49,6 +49,33 @@ footer {
     width: 100%;
 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="feedback-container">
+        <h1>Feedback Form</h1>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="feedback">Feedback:</label>
+            <textarea id="feedback" name="feedback" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
@@ -102,6 +129,9 @@ button {
 }
 
 button:hover {
+    background-color: #0056b3;
+}
+
     background-color: #0056b3;
 }
 
