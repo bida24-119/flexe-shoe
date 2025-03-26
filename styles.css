@@ -47,26 +47,52 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-    margin: 20px 0;
+
+
+form {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
 }
 
-p {
-    font-size: 1.1em;
+form {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+form {
+    margin: 0;
 }
 
-a {
-    color: #4CAF50;
+form {
+    color: white;
     text-decoration: none;
+    margin: 0 10px;
 }
 
-a:hover {
-    text-decoration: underline
-img {
-    border: 5px solid #4CAF50;
-    border-radius: 10px;
+nav a:hover {
+    text-decoration: underline;
+}
 
-  main a[href^="mailto:"] {
-    color: #ff5722;
-    font-weight: bold
-
+form {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+form {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
